@@ -40,7 +40,7 @@ h4 {
 }
 
 .mainfoto {
-  background: url("Fox.jpg") no-repeat;
+  background: url("../fonts/Fox.jpg") no-repeat;
   min-height: 780px;
   max-width: 1440px;
 }
@@ -155,7 +155,7 @@ ul.nav li {
 }
 
 .one {
-  background: url("Deer.jpg") no-repeat;
+  background: url("../content/Deer.jpg") no-repeat;
   width: 300px;
   height: 360px;
   display: flex;
@@ -169,7 +169,7 @@ ul.nav li {
 }
 
 .two {
-  background: url("Squirrel.jpg") no-repeat;
+  background: url("../content/Squirrel.jpg") no-repeat;
   width: 300px;
   height: 360px;
   display: flex;
@@ -183,7 +183,7 @@ ul.nav li {
 }
 
 .three {
-  background: url("bird.jpg") no-repeat;
+  background: url("../content/bird.jpg") no-repeat;
   width: 300px;
   height: 360px;
   display: flex;
@@ -197,7 +197,7 @@ ul.nav li {
 }
 
 .fon {
-  background: url("leafs.jpg") no-repeat;
+  background: url("../fonts/leafs.jpg") no-repeat;
   height: 360px;
   max-width: 1440px;
   display: flex;
