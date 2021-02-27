@@ -1,8 +1,8 @@
-* {
+  * {
   padding: 0;
   margin: 0;
   border: 0;
-}
+}  
 
 body {
   background: #e5e5e5;
@@ -35,9 +35,9 @@ h4 {
 
 .content {
   max-width: 1200px;
-  width: 100%;
+  height: 100%;
   margin: 0 auto;
-}
+} 
 
 .mainfoto {
   background: url("../fonts/Fox.jpg") no-repeat;
@@ -50,17 +50,20 @@ h4 {
   height: 100px;
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  max-width: 1200px;}
+
 .logo {
   color: white;
   display: flex;
   align-items: center;
+  height: 70px;
+  width:60px;
+  margin-left: 120px;
+
 }
-.logo p {
+figcaption {
   color: #f7f7f7;
-  /* font: normal normal 32px 400; */
+  font-weight: normal;
   font-size: 32px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -75,7 +78,7 @@ h4 {
   align-items: center;
   justify-content: space-between;
   font-size: 23px;
-  /* сюда стили для лишек */
+
 }
 ul.nav li {
   color: white;
@@ -204,45 +207,23 @@ ul.nav li {
   justify-content: space-between;
   align-items: center;
 }
-.logo2 {
-  display: flex;
-  align-items: center;
-  color: white;
-  margin-left: 120px;
+
+ ul.about_us li {
+  display:inline;
+  margin-right: 86px;
+} 
+.about_us_item {
+  color: #e5e5e5;
 }
 
-.logo2 p {
-  color: #f7f7f7;
-  font-weight: normal;
-  font-size: 32px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  margin-left: 15px;
-}
+ ul.social__menu li {
+  display:inline;
+  margin-right: 32px;
+  } 
 
-.aboutus {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.aboutus span {
-  color: white;
-  font-size: 24px;
-  margin-left: 86px;
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: 36px;
-}
-
-.social__item-img {
+ .social__item-img {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: white;
-}
+  background: white;
+} 

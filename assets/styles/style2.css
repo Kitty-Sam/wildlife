@@ -1,0 +1,86 @@
+body {
+    background: #e5e5e5;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .mainfoto {
+    background: url("../fonts/Fox.jpg") no-repeat;
+    min-height: 780px;
+    max-width: 1440px;
+  }
+
+
+  .logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width:60px;
+  }
+
+  figcaption {
+    color: #f7f7f7;
+    font-weight: normal;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+  }
+
+
+
+  .one {
+    background: url("../content/Deer.jpg") no-repeat;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .one span {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .two {
+    background: url("../content/Squirrel.jpg") no-repeat;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .two span {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .three {
+    background: url("../content/bird.jpg") no-repeat;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .three span {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+
+  .fon {
+    background: url("../fonts/leafs.jpg") no-repeat;
+    height: 360px;
+    max-width: 1440px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  /* ul li {
+      display: inline;
+  } */
