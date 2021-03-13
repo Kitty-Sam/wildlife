@@ -1,154 +1,156 @@
 <!DOCTYPE html>
-<html lang="eng">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="mainfoto">
-      <section class="header content">
+<html lang="en">
 
-     
-      <figure class="logo">
-        <p><img
-            src="assets/content/horns.svg"     
-            alt="horns"
-          /></p> 
-          <figcaption>wildlife</figcaption>
-        </figure>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <title>WildLife</title>
+</head>
 
-        <nav>
-          <ul class="nav">
-            <li class="navigation_item">Blog</li>
-            <li class="navigation_item">Contacts </li>
-            <li class="navigation_item"><img src="assets/content/magnifier.svg" /></li>
-            <li class="navigation_item"><button class="b2">Sign in</button> </li>
-           
-          </ul>
-        </nav>
-      </section>
+<body>
+
+  <!-- Блок Header -->
+
+  <header class="header">
+    <div class="header__top">
+      <div class="logo">
+        <img class="logo__img" src="assets/images/Logo.svg" alt="Logotipe">
+        <h1 class="logo__name">wildlife</h1>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item"><a class="header__menu-list-link" href="" title="Our Blog">Blog</a></li>
+          <li class="header__menu-list-item"><a class="header__menu-list-link" href="" title="Our Contacts">Contacts</a>
+          </li>
+          <li class="header__menu-list-item"><a class="header__menu-list-link " href="" title="Search in Site">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.688 18.688C16.001 18.688 18.688 16 18.688 12.688C18.688 9.376 16 6.688 12.688 6.688C9.376 6.688 6.688 9.376 6.688 12.688C6.688 16 9.376 18.688 12.688 18.688ZM20.688 18.688L27.313 25.313L25.313 27.313L18.688 20.688V19.625L18.313 19.25C16.813 20.563 14.813 21.313 12.688 21.313C7.875 21.313 4 17.5 4 12.688C4 7.876 7.875 4 12.688 4C17.501 4 21.313 7.875 21.313 12.688C21.313 14.813 20.563 16.813 19.25 18.313L19.625 18.688H20.688Z" />
+              </svg>
+            </a></li>
+          <li class="header__menu-list-item"><button class="header__menu-list-btn" type="button">Sign in</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--Блок Survival-->
+
+    <div class="survival">
+      <h2 class="survival__header">Survival</h2>
+      <p class="survival__content">
+        What this means is that we exist to help protect our environment and
+        do in numbers of ways. You can save the planet by donation.
+      </p>
+      <button class="survival__btn" type="button"> Donate
+      </button>
+    </div>
+  </header>
 
 
-      <div class="survirval content">
-        <section class="survirval-section">
-         
-          <h1>Survival</h1>
-          <p>
-            What this means is that we exist to help protect our environment and
-            do in numbers of ways. You can save the planet by donation.
-          </p>
-          <button class="b1"><h4>Donate</h4></button>
-        </section>
+
+ 
+  <main class="main">
+ <!--Блок Latest articles-->
+    <section class="latest-articles">
+
+      <div class="header-articles">
+        <h2 class="header-h2">Latest articles</h2>
+        <h4 class="h4s">Breaking news from the wild</h4>
+      </div>
+
+      <div class="articles-slider">
+        <button class="articles-slider__btn left"><img src="assets/images/left.svg" alt="less" />
+        </button>
+        <div class="articles-slider__item">
+          <a class="articles-slider__link" href=""><img class="articles-slider__img" src="assets/images/deer.jpg"
+              alt="Deer" title="Naturalist investigation">
+          </a>
+          <div class="articles-slider__description">
+            <p class="header-h4_light">Deer</p>
+            <span class="text_small">Naturalist investigation</span>
+          </div>
+        </div>
+        <div class="articles-slider__item">
+          <a class="articles-slider__link" href=""><img class="articles-slider__img" src="assets/images/squirrel.jpg"
+              alt="Squirrel" title="Kamikaze squirrels">
+          </a>
+          <div class="articles-slider__description">
+            <p class="header-h4_light">Squirrel</p>
+            <span class="text_small">Kamikaze squirrels</span>
+          </div>
+        </div>
+        <div class="articles-slider__item">
+          <a class="articles-slider__link" href=""><img class="articles-slider__img" src="assets/images/bird.jpg"
+              alt="Bird" title="Birds Fight club">
+          </a>
+          <div class="articles-slider__description">
+            <p class="header-h4_light">Bird</p>
+            <span class="text_small">Birds Fight club</span>
+          </div>
+        </div>
+        <button class="articles-slider__btn right"><img src="assets/images/right.svg" alt="more" />
+        </button>
+      </div>
+    </section>
+
+    <!--Блок Get notified-->
+
+    <section class="get-notified">
+      <h3 class="get-notified__header">
+        Get notified about new amazing articles
+      </h3>
+      <form class="get-notified__form">
+        <input class="get-notified__input" placeholder="Email">
+        <button class="get-notified__btn" type="button">Send</button>
+      </form>
+    </section>
+  </main>
+  <!--Блок Footer-->
+
+  <footer class="footer">
+
+    <div class="footer__content">
+      <div class="logo">
+        <img class="logo__img" src="assets/images/Logo.svg" alt="Logotype">
+        <span class="logo__name">wildlife</span>
+      </div>
+
+      <nav class="footer-menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item"> <a class="footer__menu-list-link" title="Articles" href="">Articles</a>
+          </li>
+          <li class="footer__menu-list-item"> <a class="footer__menu-list-link" title="About Us" href="">About us</a>
+          </li>
+          <li class="footer__menu-list-item"> <a class="footer__menu-list-link" title="Learn more" href="">Learn
+              more</a> </li>
+        </ul>
+      </nav>
+
+      <div class="social">
+        <ul class="social__menu-list">
+          <li class="social__menu-list-item">
+            <a class="social__menu-list-item-link" href="https://www.facebook.com/" title="Facebook"><img
+                class="social__menu-list-item-img" src="assets/images/facebook.svg" alt="" /></a>
+          </li>
+          <li class="social__menu-list-item">
+            <a class="social__menu-list-item-link" href="https://www.instagram.com/" title="Instagram"><img
+                class="social__menu-list-item-img" src="assets/images/intsagram.svg" alt="" /></a>
+          </li>
+          <li class="social__menu-list-item">
+            <a class="social__menu-list-item-link" href="https://www.pinterest.com/" title="Pinterest"><img
+                class="social__menu-list-item-img" src="assets/images/pinterest.svg" alt="" /></a>
+          </li>
+          <li class="social__menu-list-item">
+            <a class="social__menu-list-item-link" href="" title="Telegram"><img class="social__menu-list-item-img"
+                src="assets/images/telegram.svg" alt="" /></a>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <section class="content gallery">
-     
-
-      <div class="gallery-title">
-        <h2>Latest articles</h2>
-        <h2s>Breaking news from the wild</h2s>
-      </div>
-      <div class="slider">
-        <button><img src="assets/images/less.png" alt="less" style="background:#e5e5e5; width: 29px; height: 39px"/></button>
-
-        <div class="one">
-          <h4>Deer</h4>
-          <span>Naturalist investigation</span>
-        </div>
-
-        <div class="two">
-          <h4>Squirrel</h4>
-          <span>Kamikaze squirrels</span>
-        </div>
-
-        <div class="three">
-          <h4>Bird</h4>
-          <span>Bird fligth club</span>
-        </div>
-
-        <button><img src="assets/images/more.png" alt="more" style="background:#e5e5e5; width: 29px; height: 39px" /> </button>
-      </div>
-
-      <div class="form">
-        <h3 style="margin-bottom: 59px">
-          Get notified about new amazing articles
-        </h3>
-        <form>
-          <input
-            type="text"
-            value="Email"
-            style="padding: 17px 38px; background: transparent; border: 1px #333333 solid ; font-size: 23px"
-          />
-          <input
-            type="button"
-            value="Send"
-            class="b1"
-            style="margin-bottom: 239 px"
-          />
-        </form>
-      </div>
-    </section>
-
-    <section class="fon content"> 
-    
-
-      <figure class="logo">
-      <p> <img
-          src="assets/content/horns.svg" height="70px" width="60px" alt="horns"/></p> 
-        <figcaption>wildlife</figcaption>
-      </figure>
-
-      <div class="about_us">
-        <ul class="about_us">
-          <li class="about_us_item" style="margin-left: 120px;">Articles</li>
-          <li class="about_us_item">About us</li>
-          <li class="about_us_item">Learn more</li>
-        </ul>
-         </div>
-
-      <div class="social">
-        <ul class="social__menu">
-          <li class="social__menu-item">
-            <a class="social__item-link" href=""
-              ><img
-                class="social__item-img"
-                src="assets/images/facebook.png"
-                alt="facebook"
-            /></a>
-          </li>
-          <li class="social__menu-item">
-            <a class="social__item-link" href=""
-              ><img
-                class="social__item-img"
-                src="assets/images/insta.svg"
-                alt="instagram"
-            /></a>
-          </li>
-          <li class="social__menu-item">
-            <a class="social__item-link" href=""
-              ><img
-                class="social__item-img"
-                src="assets/images/pinter.png"
-                alt="pinterest"
-            /></a>
-          </li>
-          <li class="social__menu-item">
-            <a class="social__item-link" href=""
-              ><img
-                class="social__item-img"
-                src="assets/images/telega.png"
-                alt="telegram" style="margin-right: 120px"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </body>
-</html>
+  </footer>
